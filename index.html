@@ -1,18 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art & Poetry Quote Generator</title>
+    <title>Random Quote Generator</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="main-container">
-    <div class="quote-card">
-        <h2>Aesthetic Reflections</h2>
-        <p id="quoteDisplay">"Click the button below to discover a thought."</p>
+
+    <div class="quote-box">
+        <h1>Random Quote</h1>
+
+        <p id="quote">Click the button for a quote ✨</p>
+
+        <p id="author"></p>
+         <p id="quoteNumber">Quote 1 of 6</p>
+
         <button id="quoteBtn">New Quote</button>
-    </div>
+
+<button id="favoriteBtn">♡ Favorite</button>
+
+<button id="copyBtn">↗ Copy Quote</button>
+<button id="shareBtn">↗ Share Quote</button>
+
+<button id="showFavoriteBtn">♡ Show Favorite</button>
+<button id="clearFavoriteBtn">× Clear Favorite</button>
+<button id="darkModeBtn">☾ Dark Mode</button>
+       <p id="savedQuote"></p>
+       <p id="savedAuthor"></p>
+      
     </div>
 
     <script src="script.js"></script>
